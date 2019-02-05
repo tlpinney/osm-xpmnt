@@ -1,4 +1,4 @@
-# OSM-EXPMNTS
+# OSM-XPMNT
 
 ### Build the docker image
 ```
