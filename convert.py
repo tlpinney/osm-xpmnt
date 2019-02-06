@@ -2,7 +2,7 @@ import csv
 
 with open('output.tsv') as tsvfile:
     reader = csv.DictReader(tsvfile, dialect='excel-tab')
-    print("x\ty\tz\tid\n")
+    print("x\ty\tz\tid")
     for row in reader:
         #print(row)
         x = ((float(row['min_lon']) + float(row['max_lon']) + 180.0) / 2.0) - 180.0
